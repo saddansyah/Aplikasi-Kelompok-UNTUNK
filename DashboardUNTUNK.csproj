@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC33458A-E2F6-4BA9-9632-011114D2CA22}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DashboardUNTUNK</RootNamespace>
+    <AssemblyName>DashboardUNTUNK</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Dapper.2.0.90\lib\net461\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.1.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.4\lib\net40\Guna.UI2.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportViewer.WinForms.v12.12.0.0.1\lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_Kategori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Kategori.Designer.cs">
+      <DependentUpon>Form_Kategori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_KelolaBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_KelolaBarang.Designer.cs">
+      <DependentUpon>Form_KelolaBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Keranjang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Keranjang.Designer.cs">
+      <DependentUpon>Form_Keranjang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Homepage.Designer.cs">
+      <DependentUpon>Form_Homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_KelolaKasir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_KelolaKasir.Designer.cs">
+      <DependentUpon>Form_KelolaKasir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Login.Designer.cs">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Nota1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Nota1.Designer.cs">
+      <DependentUpon>Form_Nota1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Koneksi.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Form_Nota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Nota.Designer.cs">
+      <DependentUpon>Form_Nota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_LaporanPenjualan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_LaporanPenjualan.Designer.cs">
+      <DependentUpon>Form_LaporanPenjualan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form_Kategori.resx">
+      <DependentUpon>Form_Kategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_KelolaBarang.resx">
+      <DependentUpon>Form_KelolaBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Keranjang.resx">
+      <DependentUpon>Form_Keranjang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Homepage.resx">
+      <DependentUpon>Form_Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_KelolaKasir.resx">
+      <DependentUpon>Form_KelolaKasir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Login.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Nota1.resx">
+      <DependentUpon>Form_Nota1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nota.rdlc" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Form_Nota.resx">
+      <DependentUpon>Form_Nota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_LaporanPenjualan.resx">
+      <DependentUpon>Form_LaporanPenjualan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Form_Nota1.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginpage3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sell_stock_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallet_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash_register_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trolley_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash_in_hand_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waste_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginfix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\category.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list_58px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_file_58px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_rounded_up_58px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_58px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database_UNTUNK.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database_UNTUNK_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database_UNTUNK.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
