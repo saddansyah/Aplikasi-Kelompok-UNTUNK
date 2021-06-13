@@ -6,8 +6,8 @@ Ur Own Digitalized Warunk
    <br>
    <br>
    <b>Example = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\...[your directory]...\Database_UNTUNK.mdf;Integrated Security=True"</b>
-2. Build project tersebut dan jalankan aplikasi melalui bin -> Debug -> DashboardUNTUNK.exe atau langsung build + run di Visual Studio 2019.
-3. Enjoy !
+2. Build project tersebut dan jalankan aplikasi melalui bin -> Debug -> DashboardUNTUNK.exe atau langsung build + run di Visual Studio 2019. <br>
+3. Enjoy ! <br>
 
 
 ## Class Diagram :
