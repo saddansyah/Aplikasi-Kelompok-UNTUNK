@@ -28,12 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.btnLogout = new Guna.UI2.WinForms.Guna2GradientTileButton();
@@ -42,81 +38,43 @@
             this.btnCategForm = new Guna.UI2.WinForms.Guna2GradientTileButton();
             this.btnCartForm = new Guna.UI2.WinForms.Guna2GradientTileButton();
             this.btnInventForm = new Guna.UI2.WinForms.Guna2GradientTileButton();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblNamaKasir = new System.Windows.Forms.Label();
             this.lblLevelKasir = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(15, 40);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(58, 39);
-            this.guna2HtmlLabel2.TabIndex = 23;
-            this.guna2HtmlLabel2.Text = "unk";
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(15, 10);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(73, 39);
-            this.guna2HtmlLabel1.TabIndex = 22;
-            this.guna2HtmlLabel1.Text = "UNT";
-            // 
-            // guna2HtmlLabel4
-            // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(13, 20);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(176, 19);
-            this.guna2HtmlLabel4.TabIndex = 3;
-            this.guna2HtmlLabel4.Text = "Your Own Digitalized Warunk!";
-            // 
             // guna2ShadowPanel1
             // 
             this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ShadowPanel1.Controls.Add(this.guna2HtmlLabel4);
+            this.guna2ShadowPanel1.Controls.Add(this.label6);
+            this.guna2ShadowPanel1.Controls.Add(this.label5);
             this.guna2ShadowPanel1.Controls.Add(this.pictureBox1);
-            this.guna2ShadowPanel1.Controls.Add(this.guna2HtmlLabel3);
             this.guna2ShadowPanel1.Controls.Add(this.guna2TextBox1);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(120, 18);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(180, 28);
+            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.DodgerBlue;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(536, 56);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(804, 86);
             this.guna2ShadowPanel1.TabIndex = 24;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::DashboardUNTUNK.Properties.Resources.search_grey;
-            this.pictureBox1.Location = new System.Drawing.Point(321, 14);
+            this.pictureBox1.Location = new System.Drawing.Point(482, 22);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 33);
+            this.pictureBox1.Size = new System.Drawing.Size(48, 51);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.Silver;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(371, 22);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(109, 18);
-            this.guna2HtmlLabel3.TabIndex = 1;
-            this.guna2HtmlLabel3.Text = "Search for menu...";
             // 
             // guna2TextBox1
             // 
@@ -132,13 +90,14 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(359, 14);
+            this.guna2TextBox1.Location = new System.Drawing.Point(538, 22);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(163, 33);
+            this.guna2TextBox1.Size = new System.Drawing.Size(244, 51);
             this.guna2TextBox1.TabIndex = 0;
             // 
             // guna2GradientPanel1
@@ -146,10 +105,11 @@
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.SkyBlue;
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.SteelBlue;
             this.guna2GradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 350);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 538);
+            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(673, 60);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1010, 92);
             this.guna2GradientPanel1.TabIndex = 25;
             // 
             // btnLogout
@@ -162,10 +122,11 @@
             this.btnLogout.ForeColor = System.Drawing.Color.White;
             this.btnLogout.HoverState.Parent = this.btnLogout;
             this.btnLogout.Image = global::DashboardUNTUNK.Properties.Resources.logout_rounded_up_58px;
-            this.btnLogout.Location = new System.Drawing.Point(467, 242);
+            this.btnLogout.Location = new System.Drawing.Point(700, 372);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.ShadowDecoration.Parent = this.btnLogout;
-            this.btnLogout.Size = new System.Drawing.Size(117, 86);
+            this.btnLogout.Size = new System.Drawing.Size(176, 132);
             this.btnLogout.TabIndex = 28;
             this.btnLogout.Text = "Logout";
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
@@ -180,10 +141,11 @@
             this.btnReportForm.ForeColor = System.Drawing.Color.White;
             this.btnReportForm.HoverState.Parent = this.btnReportForm;
             this.btnReportForm.Image = global::DashboardUNTUNK.Properties.Resources.report_file_58px;
-            this.btnReportForm.Location = new System.Drawing.Point(292, 242);
+            this.btnReportForm.Location = new System.Drawing.Point(438, 372);
+            this.btnReportForm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReportForm.Name = "btnReportForm";
             this.btnReportForm.ShadowDecoration.Parent = this.btnReportForm;
-            this.btnReportForm.Size = new System.Drawing.Size(117, 86);
+            this.btnReportForm.Size = new System.Drawing.Size(176, 132);
             this.btnReportForm.TabIndex = 27;
             this.btnReportForm.Text = "Sales Report";
             this.btnReportForm.Click += new System.EventHandler(this.btnReportForm_Click);
@@ -198,10 +160,11 @@
             this.btnKasirForm.ForeColor = System.Drawing.Color.White;
             this.btnKasirForm.HoverState.Parent = this.btnKasirForm;
             this.btnKasirForm.Image = global::DashboardUNTUNK.Properties.Resources.cash_register_50px;
-            this.btnKasirForm.Location = new System.Drawing.Point(109, 133);
+            this.btnKasirForm.Location = new System.Drawing.Point(164, 205);
+            this.btnKasirForm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnKasirForm.Name = "btnKasirForm";
             this.btnKasirForm.ShadowDecoration.Parent = this.btnKasirForm;
-            this.btnKasirForm.Size = new System.Drawing.Size(117, 86);
+            this.btnKasirForm.Size = new System.Drawing.Size(176, 132);
             this.btnKasirForm.TabIndex = 17;
             this.btnKasirForm.Text = "Kasir";
             this.btnKasirForm.Click += new System.EventHandler(this.btnKasirForm_Click);
@@ -216,10 +179,11 @@
             this.btnCategForm.ForeColor = System.Drawing.Color.White;
             this.btnCategForm.HoverState.Parent = this.btnCategForm;
             this.btnCategForm.Image = global::DashboardUNTUNK.Properties.Resources.list_58px;
-            this.btnCategForm.Location = new System.Drawing.Point(467, 133);
+            this.btnCategForm.Location = new System.Drawing.Point(700, 205);
+            this.btnCategForm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCategForm.Name = "btnCategForm";
             this.btnCategForm.ShadowDecoration.Parent = this.btnCategForm;
-            this.btnCategForm.Size = new System.Drawing.Size(117, 86);
+            this.btnCategForm.Size = new System.Drawing.Size(176, 132);
             this.btnCategForm.TabIndex = 21;
             this.btnCategForm.Text = "Category";
             this.btnCategForm.Click += new System.EventHandler(this.btnCategForm_Click);
@@ -234,10 +198,11 @@
             this.btnCartForm.ForeColor = System.Drawing.Color.White;
             this.btnCartForm.HoverState.Parent = this.btnCartForm;
             this.btnCartForm.Image = global::DashboardUNTUNK.Properties.Resources.shopping_cart_48px1;
-            this.btnCartForm.Location = new System.Drawing.Point(292, 133);
+            this.btnCartForm.Location = new System.Drawing.Point(438, 205);
+            this.btnCartForm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCartForm.Name = "btnCartForm";
             this.btnCartForm.ShadowDecoration.Parent = this.btnCartForm;
-            this.btnCartForm.Size = new System.Drawing.Size(117, 86);
+            this.btnCartForm.Size = new System.Drawing.Size(176, 132);
             this.btnCartForm.TabIndex = 18;
             this.btnCartForm.Text = "Keranjang";
             this.btnCartForm.Click += new System.EventHandler(this.btnCartForm_Click);
@@ -252,45 +217,23 @@
             this.btnInventForm.ForeColor = System.Drawing.Color.White;
             this.btnInventForm.HoverState.Parent = this.btnInventForm;
             this.btnInventForm.Image = global::DashboardUNTUNK.Properties.Resources.box_58px;
-            this.btnInventForm.Location = new System.Drawing.Point(109, 242);
+            this.btnInventForm.Location = new System.Drawing.Point(164, 372);
+            this.btnInventForm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnInventForm.Name = "btnInventForm";
             this.btnInventForm.ShadowDecoration.Parent = this.btnInventForm;
-            this.btnInventForm.Size = new System.Drawing.Size(117, 86);
+            this.btnInventForm.Size = new System.Drawing.Size(176, 132);
             this.btnInventForm.TabIndex = 32;
             this.btnInventForm.Text = "Inventory";
             this.btnInventForm.Click += new System.EventHandler(this.btnInventForm_Click);
-            // 
-            // guna2HtmlLabel5
-            // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.SteelBlue;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(107, 80);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(46, 21);
-            this.guna2HtmlLabel5.TabIndex = 33;
-            this.guna2HtmlLabel5.Text = "Hello, ";
-            // 
-            // guna2HtmlLabel6
-            // 
-            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.SteelBlue;
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(107, 102);
-            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(259, 21);
-            this.guna2HtmlLabel6.TabIndex = 34;
-            this.guna2HtmlLabel6.Text = "What would you like to do today?";
             // 
             // lblNamaKasir
             // 
             this.lblNamaKasir.AutoSize = true;
             this.lblNamaKasir.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.lblNamaKasir.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lblNamaKasir.Location = new System.Drawing.Point(157, 81);
-            this.lblNamaKasir.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNamaKasir.Location = new System.Drawing.Point(236, 125);
             this.lblNamaKasir.Name = "lblNamaKasir";
-            this.lblNamaKasir.Size = new System.Drawing.Size(40, 19);
+            this.lblNamaKasir.Size = new System.Drawing.Size(61, 28);
             this.lblNamaKasir.TabIndex = 35;
             this.lblNamaKasir.Text = "User";
             // 
@@ -299,34 +242,98 @@
             this.lblLevelKasir.AutoSize = true;
             this.lblLevelKasir.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.lblLevelKasir.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lblLevelKasir.Location = new System.Drawing.Point(606, 328);
-            this.lblLevelKasir.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblLevelKasir.Location = new System.Drawing.Point(909, 505);
             this.lblLevelKasir.Name = "lblLevelKasir";
-            this.lblLevelKasir.Size = new System.Drawing.Size(62, 19);
+            this.lblLevelKasir.Size = new System.Drawing.Size(89, 28);
             this.lblLevelKasir.TabIndex = 36;
             this.lblLevelKasir.Text = "Admin";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Akira Expanded", 24F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.label1.Location = new System.Drawing.Point(12, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(160, 50);
+            this.label1.TabIndex = 67;
+            this.label1.Text = "unt";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Akira Expanded", 24F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.Location = new System.Drawing.Point(12, 64);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(167, 50);
+            this.label2.TabIndex = 68;
+            this.label2.Text = "unK";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label3.Location = new System.Drawing.Point(159, 125);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(77, 28);
+            this.label3.TabIndex = 69;
+            this.label3.Text = "Hello,";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label4.Location = new System.Drawing.Point(159, 153);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(401, 28);
+            this.label4.TabIndex = 70;
+            this.label4.Text = "What would you like to do today?";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label5.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label5.Location = new System.Drawing.Point(15, 36);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(262, 21);
+            this.label5.TabIndex = 71;
+            this.label5.Text = "Your Own Digitalized Warunk!";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic);
+            this.label6.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label6.Location = new System.Drawing.Point(551, 36);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(169, 21);
+            this.label6.TabIndex = 71;
+            this.label6.Text = "Search for menu...";
+            // 
             // Form_Homepage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(673, 406);
+            this.ClientSize = new System.Drawing.Size(1010, 625);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblLevelKasir);
             this.Controls.Add(this.lblNamaKasir);
-            this.Controls.Add(this.guna2HtmlLabel6);
-            this.Controls.Add(this.guna2HtmlLabel5);
             this.Controls.Add(this.btnInventForm);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnReportForm);
             this.Controls.Add(this.guna2GradientPanel1);
-            this.Controls.Add(this.guna2HtmlLabel2);
-            this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2ShadowPanel1);
             this.Controls.Add(this.btnKasirForm);
             this.Controls.Add(this.btnCategForm);
             this.Controls.Add(this.btnCartForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form_Homepage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "homePage";
@@ -340,13 +347,8 @@
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2GradientTileButton btnKasirForm;
         private Guna.UI2.WinForms.Guna2GradientTileButton btnCategForm;
@@ -355,9 +357,13 @@
         private Guna.UI2.WinForms.Guna2GradientTileButton btnReportForm;
         private Guna.UI2.WinForms.Guna2GradientTileButton btnLogout;
         private Guna.UI2.WinForms.Guna2GradientTileButton btnInventForm;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private System.Windows.Forms.Label lblNamaKasir;
         private System.Windows.Forms.Label lblLevelKasir;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
