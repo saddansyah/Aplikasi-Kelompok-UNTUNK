@@ -78,13 +78,16 @@ namespace DashboardUNTUNK
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = Konn.GetConn();
-            cmd = new SqlCommand("DELETE FROM TBL_Transaksi", conn);
-            conn.Open();
-            cmd.ExecuteNonQuery();
-            conn.Close();
+            if (MessageBox.Show("Are you sure to delete these ?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                SqlConnection conn = Konn.GetConn();
+                cmd = new SqlCommand("DELETE FROM TBL_Transaksi", conn);
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                conn.Close();
 
-            ShowData();
+                ShowData();
+            }
         }
 
         private void Form_LaporanPenjualan_Load(object sender, EventArgs e)
