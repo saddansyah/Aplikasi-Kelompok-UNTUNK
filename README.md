@@ -6,7 +6,15 @@ Ur Own Digitalized Warunk
    <br>
    <code>Example = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\...[your directory]...\Database_UNTUNK.mdf;Integrated Security=True"</code>
 2. Build project tersebut dan jalankan aplikasi melalui bin -> Debug -> DashboardUNTUNK.exe atau langsung build + run di Visual Studio 2019.
-3. Enjoy !
+3. Sebelum bisa masuk ke aplikasi, user dipersilakan untuk login terlebih dahulu : 
+   <br>
+   <code>Username : ADMIN001</code> dengan <code>Password : 123</code>
+   <br>
+   <code>Username : ADMIN002</code> dengan <code>Password : 123</code>
+   <br>
+   <code>Username : ADMIN003</code> dengan <code>Password : 12345</code>
+   <br>
+4. Enjoy !
 
 
 ## Class Diagram :
