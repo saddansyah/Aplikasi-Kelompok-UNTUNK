@@ -137,7 +137,7 @@ namespace DashboardUNTUNK
             else
             {
                 SqlConnection conn = Konn.GetConn();
-                cmd = new SqlCommand("UPDATE TBL_Kategori SET IDKategori='" + tbIDKategori.Text + "', NamaKategori='" + tbNamaKategori.Text + "', DeskripsiKategori='" + rtbDeskripsi.Text + "')", conn);
+                cmd = new SqlCommand("UPDATE TBL_Kategori SET NamaKategori='" + tbNamaKategori.Text + "', DeskripsiKategori='" + rtbDeskripsi.Text + "' WHERE IDKategori =" + tbIDKategori.Text + "", conn);
                 conn.Open();
 
                 cmd.ExecuteNonQuery();
