@@ -1,10 +1,13 @@
 # UNTUNK
 Ur Own Digitalized Warunk
 <br>
+<br>
 Oleh :
 <br>
 <b> Resiyanda Wafa Ramadaningtyas Aribowo___20/460563/TK/51152 </b> 
+<br>
 <b> Saddan Syah Akbar___20/460566/TK/51155 </b> 
+<hr>
 
 ## Cara Penggunaan :
 1. Buka DashboardUNTUNK.sln dan ganti ConnectionString pada class Koneksi.cs dengan Connection String yang ada pada Database_UNTUNK -> File Properties.
