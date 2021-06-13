@@ -126,11 +126,11 @@
             this.guna2ShadowPanel1.Controls.Add(this.guna2HtmlLabel3);
             this.guna2ShadowPanel1.Controls.Add(this.guna2TextBox1);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(147, 9);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(139, 9);
             this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.DodgerBlue;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1112, 81);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1120, 81);
             this.guna2ShadowPanel1.TabIndex = 65;
             // 
             // pictureBox1
