@@ -12,7 +12,12 @@ namespace DashboardUNTUNK
         public SqlConnection GetConn()
         {
             SqlConnection Conn = new SqlConnection();;
-            Conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\praktpbobismillah\\UNTUNK_UI\\Database_UNTUNK.mdf;Integrated Security=True";
+
+            //Rei ConnString
+            //Conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\praktpbobismillah\\UNTUNK_UI\\Database_UNTUNK.mdf;Integrated Security=True";
+
+            //Saddan ConnString
+            Conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\[code] UNTUNK\\remastered\\UNTUNK_UI\\Aplikasi-Kelompok-UNTUNK\\UNTUNK_UI\\Database_UNTUNK.mdf;Integrated Security=True";
             return Conn;
 
         }

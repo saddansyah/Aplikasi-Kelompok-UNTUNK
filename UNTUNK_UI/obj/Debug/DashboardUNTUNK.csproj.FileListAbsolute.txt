@@ -201,3 +201,5 @@ C:\praktpbobismillah\UNTUNK_UI\obj\Debug\DashboardUNTUNK.csproj.CoreCompileInput
 C:\praktpbobismillah\UNTUNK_UI\obj\Debug\DashboardUNTUNK.csproj.CopyComplete
 C:\praktpbobismillah\UNTUNK_UI\obj\Debug\DashboardUNTUNK.exe
 C:\praktpbobismillah\UNTUNK_UI\obj\Debug\DashboardUNTUNK.pdb
+D:\[code] UNTUNK\remastered\UNTUNK_UI\Aplikasi-Kelompok-UNTUNK\UNTUNK_UI\bin\Debug\Dapper.dll
+D:\[code] UNTUNK\remastered\UNTUNK_UI\Aplikasi-Kelompok-UNTUNK\UNTUNK_UI\bin\Debug\Dapper.xml
