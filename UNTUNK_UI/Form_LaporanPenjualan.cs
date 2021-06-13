@@ -31,22 +31,26 @@ namespace DashboardUNTUNK
         }
         private void btnInventForm_Click(object sender, EventArgs e)
         {
-            frmBarang.Show();
+            frmBarang = new Form_KelolaBarang();
+            frmBarang.ShowDialog();
         }
 
         private void btnKasirForm_Click(object sender, EventArgs e)
         {
-            frmKasir.Show();
+            frmKasir = new Form_KelolaKasir();
+            frmKasir.ShowDialog();
         }
 
         private void btnCategForm_Click(object sender, EventArgs e)
         {
-            frmKategori.Show();
+            frmKategori = new Form_Kategori();
+            frmKategori.ShowDialog();
         }
 
         private void btnReportForm_Click(object sender, EventArgs e)
         {
-            frmLaporan.Show();
+            frmLaporan = new Form_LaporanPenjualan();
+            frmLaporan.ShowDialog();
         }
         private void btnLogout_Click(object sender, EventArgs e)
         {

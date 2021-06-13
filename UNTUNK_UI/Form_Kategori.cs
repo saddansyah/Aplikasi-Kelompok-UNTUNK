@@ -16,5 +16,15 @@ namespace DashboardUNTUNK
         {
             InitializeComponent();
         }
+
+        private void kasir_btn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cart_btn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -39,23 +39,27 @@ namespace DashboardUNTUNK
         }
         private void btnInventForm_Click(object sender, EventArgs e)
         {
-            frmBarang.Show();
+            frmBarang = new Form_KelolaBarang();
+            frmBarang.ShowDialog();
             this.Close();
         }
 
         private void btnKasirForm_Click(object sender, EventArgs e)
         {
-            frmKasir.Show();
+            frmKasir = new Form_KelolaKasir();
+            frmKasir.ShowDialog();
         }
 
         private void btnCategForm_Click(object sender, EventArgs e)
         {
-            frmKategori.Show();
+            frmKategori = new Form_Kategori();
+            frmKategori.ShowDialog();
         }
 
         private void btnReportForm_Click(object sender, EventArgs e)
         {
-            frmLaporan.Show();
+            frmLaporan = new Form_LaporanPenjualan();
+            frmLaporan.ShowDialog();
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -66,7 +70,8 @@ namespace DashboardUNTUNK
         }
         private void btnCartForm_Click(object sender, EventArgs e)
         {
-            frmKeranjang.Show();
+            frmKeranjang = new Form_Keranjang(sellerName);
+            frmKeranjang.ShowDialog();
         }
 
         private void Form_KelolaBarang_Load(object sender, EventArgs e)

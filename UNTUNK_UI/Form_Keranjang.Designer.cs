@@ -621,6 +621,7 @@
             this.btnCartForm.Size = new System.Drawing.Size(143, 110);
             this.btnCartForm.TabIndex = 68;
             this.btnCartForm.Text = "Keranjang";
+            this.btnCartForm.Click += new System.EventHandler(this.btnCartForm_Click);
             // 
             // btnCategForm
             // 

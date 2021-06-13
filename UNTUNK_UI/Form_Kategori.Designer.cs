@@ -199,7 +199,7 @@
             this.tbNamaKategori.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbNamaKategori.HoverState.Parent = this.tbNamaKategori;
             this.tbNamaKategori.Location = new System.Drawing.Point(216, 111);
-            this.tbNamaKategori.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbNamaKategori.Margin = new System.Windows.Forms.Padding(2);
             this.tbNamaKategori.Name = "tbNamaKategori";
             this.tbNamaKategori.PasswordChar = '\0';
             this.tbNamaKategori.PlaceholderText = "";
@@ -211,7 +211,7 @@
             // rtbDeskripsi
             // 
             this.rtbDeskripsi.Location = new System.Drawing.Point(216, 154);
-            this.rtbDeskripsi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rtbDeskripsi.Margin = new System.Windows.Forms.Padding(2);
             this.rtbDeskripsi.Name = "rtbDeskripsi";
             this.rtbDeskripsi.Size = new System.Drawing.Size(409, 138);
             this.rtbDeskripsi.TabIndex = 86;
@@ -227,7 +227,7 @@
             this.btnInput.ForeColor = System.Drawing.Color.White;
             this.btnInput.HoverState.Parent = this.btnInput;
             this.btnInput.Location = new System.Drawing.Point(241, 311);
-            this.btnInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnInput.Margin = new System.Windows.Forms.Padding(2);
             this.btnInput.Name = "btnInput";
             this.btnInput.ShadowDecoration.Parent = this.btnInput;
             this.btnInput.Size = new System.Drawing.Size(79, 26);
@@ -244,7 +244,7 @@
             this.btnEdit.ForeColor = System.Drawing.Color.White;
             this.btnEdit.HoverState.Parent = this.btnEdit;
             this.btnEdit.Location = new System.Drawing.Point(335, 311);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(2);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.ShadowDecoration.Parent = this.btnEdit;
             this.btnEdit.Size = new System.Drawing.Size(79, 26);
@@ -261,7 +261,7 @@
             this.btnDelete.ForeColor = System.Drawing.Color.White;
             this.btnDelete.HoverState.Parent = this.btnDelete;
             this.btnDelete.Location = new System.Drawing.Point(427, 311);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.ShadowDecoration.Parent = this.btnDelete;
             this.btnDelete.Size = new System.Drawing.Size(79, 26);
@@ -278,7 +278,7 @@
             this.btnSearch.ForeColor = System.Drawing.Color.White;
             this.btnSearch.HoverState.Parent = this.btnSearch;
             this.btnSearch.Location = new System.Drawing.Point(525, 311);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(2);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.ShadowDecoration.Parent = this.btnSearch;
             this.btnSearch.Size = new System.Drawing.Size(79, 26);
@@ -289,7 +289,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(115, 353);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
@@ -302,7 +302,7 @@
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Century Gothic", 9.5F);
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.SteelBlue;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(111, 111);
-            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             this.guna2HtmlLabel6.Size = new System.Drawing.Size(103, 19);
             this.guna2HtmlLabel6.TabIndex = 92;
@@ -314,7 +314,7 @@
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Century Gothic", 9.5F);
             this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.SteelBlue;
             this.guna2HtmlLabel7.Location = new System.Drawing.Point(111, 154);
-            this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
             this.guna2HtmlLabel7.Size = new System.Drawing.Size(57, 19);
             this.guna2HtmlLabel7.TabIndex = 93;
@@ -370,6 +370,7 @@
             this.kasir_btn.Size = new System.Drawing.Size(95, 71);
             this.kasir_btn.TabIndex = 78;
             this.kasir_btn.Text = "Kasir";
+            this.kasir_btn.Click += new System.EventHandler(this.kasir_btn_Click);
             // 
             // cart_btn
             // 
@@ -387,6 +388,7 @@
             this.cart_btn.Size = new System.Drawing.Size(95, 75);
             this.cart_btn.TabIndex = 79;
             this.cart_btn.Text = "Keranjang";
+            this.cart_btn.Click += new System.EventHandler(this.cart_btn_Click);
             // 
             // category_btn
             // 
@@ -448,7 +450,7 @@
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2ShadowPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form_Kategori";
             this.Text = "Form_Kategori";
             this.guna2GradientPanel2.ResumeLayout(false);
