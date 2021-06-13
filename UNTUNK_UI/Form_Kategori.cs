@@ -179,7 +179,7 @@ namespace DashboardUNTUNK
         private void btnSearch_Click(object sender, EventArgs e)
         {
             SqlConnection conn = Konn.GetConn();
-            cmd = new SqlCommand("SELECT * FROM TBL_Kategori WHERE IDKategori = '" + tbIDKategori.Text + "', NamaKategori = '" + tbNamaKategori.Text + "' OR DeskripsiKategori = '" + rtbDeskripsi.Text + "'", conn);
+            cmd = new SqlCommand("SELECT * FROM TBL_Kategori WHERE IDKategori = '" + tbIDKategori.Text + "'OR NamaKategori = '" + tbNamaKategori.Text + "' OR DeskripsiKategori = '" + rtbDeskripsi.Text + "'", conn);
             conn.Open();
             cmd.ExecuteNonQuery();
             rd = cmd.ExecuteReader();

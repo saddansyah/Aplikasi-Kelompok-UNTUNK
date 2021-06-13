@@ -282,3 +282,5 @@ C:\UNTUNK_DRAFT1\UNTUNK_UI\obj\Debug\DashboardUNTUNK.csproj.CoreCompileInputs.ca
 C:\UNTUNK_DRAFT1\UNTUNK_UI\obj\Debug\DashboardUNTUNK.csproj.CopyComplete
 C:\UNTUNK_DRAFT1\UNTUNK_UI\obj\Debug\DashboardUNTUNK.exe
 C:\UNTUNK_DRAFT1\UNTUNK_UI\obj\Debug\DashboardUNTUNK.pdb
+D:\[code] UNTUNK\remastered\UNTUNK_UI\Aplikasi-Kelompok-UNTUNK\UNTUNK_UI\bin\Debug\Dapper.dll
+D:\[code] UNTUNK\remastered\UNTUNK_UI\Aplikasi-Kelompok-UNTUNK\UNTUNK_UI\bin\Debug\Dapper.xml
