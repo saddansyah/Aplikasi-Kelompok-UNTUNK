@@ -68,6 +68,12 @@
             this.btnCartForm = new Guna.UI2.WinForms.Guna2GradientTileButton();
             this.btnCategForm = new Guna.UI2.WinForms.Guna2GradientTileButton();
             this.dgvKeranjang = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.guna2GradientPanel2.SuspendLayout();
@@ -79,24 +85,24 @@
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Akira Expanded", 20F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.SteelBlue;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(12, 50);
             this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(116, 44);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(50, 33);
             this.guna2HtmlLabel2.TabIndex = 64;
             this.guna2HtmlLabel2.Text = "unk";
             // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Akira Expanded", 20F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.LightSkyBlue;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(12, 9);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(112, 44);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(63, 33);
             this.guna2HtmlLabel1.TabIndex = 63;
             this.guna2HtmlLabel1.Text = "UNT";
             // 
@@ -108,7 +114,7 @@
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(20, 30);
             this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(255, 23);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(176, 19);
             this.guna2HtmlLabel4.TabIndex = 3;
             this.guna2HtmlLabel4.Text = "Your Own Digitalized Warunk!";
             // 
@@ -124,13 +130,13 @@
             this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.DodgerBlue;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1018, 81);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1112, 81);
             this.guna2ShadowPanel1.TabIndex = 65;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::DashboardUNTUNK.Properties.Resources.search_grey;
-            this.pictureBox1.Location = new System.Drawing.Point(699, 20);
+            this.pictureBox1.Location = new System.Drawing.Point(791, 19);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(48, 40);
@@ -143,10 +149,10 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.Silver;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(769, 28);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(861, 27);
             this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(163, 23);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(109, 19);
             this.guna2HtmlLabel3.TabIndex = 1;
             this.guna2HtmlLabel3.Text = "Search for menu...";
             // 
@@ -164,7 +170,7 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(755, 20);
+            this.guna2TextBox1.Location = new System.Drawing.Point(847, 19);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
@@ -207,7 +213,7 @@
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(12, 5);
             this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(95, 24);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(63, 18);
             this.guna2HtmlLabel5.TabIndex = 4;
             this.guna2HtmlLabel5.Text = "Keranjang";
             // 
@@ -215,11 +221,11 @@
             // 
             this.lblTanggal.AutoSize = true;
             this.lblTanggal.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTanggal.Location = new System.Drawing.Point(148, 151);
+            this.lblTanggal.Location = new System.Drawing.Point(237, 153);
             this.lblTanggal.Name = "lblTanggal";
-            this.lblTanggal.Size = new System.Drawing.Size(100, 23);
+            this.lblTanggal.Size = new System.Drawing.Size(14, 19);
             this.lblTanggal.TabIndex = 74;
-            this.lblTanggal.Text = "Tanggal: ";
+            this.lblTanggal.Text = "-";
             // 
             // tbIDBarang
             // 
@@ -296,7 +302,7 @@
             this.ID.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ID.Location = new System.Drawing.Point(207, 192);
             this.ID.Name = "ID";
-            this.ID.Size = new System.Drawing.Size(28, 21);
+            this.ID.Size = new System.Drawing.Size(20, 17);
             this.ID.TabIndex = 78;
             this.ID.Text = "ID";
             // 
@@ -306,7 +312,7 @@
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.label2.Location = new System.Drawing.Point(171, 242);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 21);
+            this.label2.Size = new System.Drawing.Size(44, 17);
             this.label2.TabIndex = 79;
             this.label2.Text = "Nama";
             // 
@@ -316,7 +322,7 @@
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(172, 296);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 21);
+            this.label3.Size = new System.Drawing.Size(44, 17);
             this.label3.TabIndex = 80;
             this.label3.Text = "Harga";
             // 
@@ -347,7 +353,7 @@
             this.label4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(163, 346);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 21);
+            this.label4.Size = new System.Drawing.Size(50, 17);
             this.label4.TabIndex = 82;
             this.label4.Text = "Jumlah";
             // 
@@ -370,7 +376,7 @@
             // tbSearch
             // 
             this.tbSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbSearch.DefaultText = "Type the product name";
+            this.tbSearch.DefaultText = "";
             this.tbSearch.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.tbSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.tbSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -384,9 +390,8 @@
             this.tbSearch.Location = new System.Drawing.Point(241, 447);
             this.tbSearch.Name = "tbSearch";
             this.tbSearch.PasswordChar = '\0';
-            this.tbSearch.PlaceholderText = "";
+            this.tbSearch.PlaceholderText = "Type the product name";
             this.tbSearch.SelectedText = "";
-            this.tbSearch.SelectionStart = 21;
             this.tbSearch.ShadowDecoration.Parent = this.tbSearch;
             this.tbSearch.Size = new System.Drawing.Size(282, 36);
             this.tbSearch.TabIndex = 84;
@@ -400,7 +405,7 @@
             this.label5.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label5.Location = new System.Drawing.Point(564, 151);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(168, 23);
+            this.label5.Size = new System.Drawing.Size(118, 17);
             this.label5.TabIndex = 85;
             this.label5.Text = "SHOPPING CART";
             // 
@@ -421,7 +426,7 @@
             this.label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(615, 661);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 21);
+            this.label6.Size = new System.Drawing.Size(43, 17);
             this.label6.TabIndex = 87;
             this.label6.Text = "Total: ";
             // 
@@ -431,7 +436,7 @@
             this.label7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(564, 706);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(113, 21);
+            this.label7.Size = new System.Drawing.Size(77, 17);
             this.label7.TabIndex = 88;
             this.label7.Text = "Kembalian: ";
             // 
@@ -440,7 +445,7 @@
             this.lblTotal.AutoSize = true;
             this.lblTotal.Location = new System.Drawing.Point(684, 661);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(16, 19);
+            this.lblTotal.Size = new System.Drawing.Size(12, 15);
             this.lblTotal.TabIndex = 89;
             this.lblTotal.Text = "-";
             // 
@@ -449,7 +454,7 @@
             this.lblKembalian.AutoSize = true;
             this.lblKembalian.Location = new System.Drawing.Point(684, 708);
             this.lblKembalian.Name = "lblKembalian";
-            this.lblKembalian.Size = new System.Drawing.Size(16, 19);
+            this.lblKembalian.Size = new System.Drawing.Size(12, 15);
             this.lblKembalian.TabIndex = 90;
             this.lblKembalian.Text = "-";
             // 
@@ -459,7 +464,7 @@
             this.label8.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(806, 661);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(127, 21);
+            this.label8.Size = new System.Drawing.Size(88, 16);
             this.label8.TabIndex = 91;
             this.label8.Text = "Uang Diterima:";
             // 
@@ -469,7 +474,7 @@
             this.label9.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(844, 706);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(89, 21);
+            this.label9.Size = new System.Drawing.Size(64, 16);
             this.label9.TabIndex = 92;
             this.label9.Text = "Uang pas:";
             // 
@@ -477,7 +482,7 @@
             // 
             this.tbKeranjangUangDiterima.Location = new System.Drawing.Point(940, 661);
             this.tbKeranjangUangDiterima.Name = "tbKeranjangUangDiterima";
-            this.tbKeranjangUangDiterima.Size = new System.Drawing.Size(139, 27);
+            this.tbKeranjangUangDiterima.Size = new System.Drawing.Size(139, 21);
             this.tbKeranjangUangDiterima.TabIndex = 93;
             this.tbKeranjangUangDiterima.TextChanged += new System.EventHandler(this.tbKeranjangUangDiterima_TextChanged);
             // 
@@ -638,7 +643,14 @@
             // 
             // dgvKeranjang
             // 
+            this.dgvKeranjang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvKeranjang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvKeranjang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5});
             this.dgvKeranjang.Location = new System.Drawing.Point(568, 192);
             this.dgvKeranjang.Name = "dgvKeranjang";
             this.dgvKeranjang.RowHeadersWidth = 62;
@@ -647,11 +659,52 @@
             this.dgvKeranjang.TabIndex = 97;
             this.dgvKeranjang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKeranjang_CellContentClick);
             // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "IDBarang";
+            this.Column1.HeaderText = "ID";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "NamaBarang";
+            this.Column2.HeaderText = "Nama";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "HargaBarang";
+            this.Column3.HeaderText = "Harga";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "JmlBarang";
+            this.Column4.HeaderText = "Jumlah";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.DataPropertyName = "TotalBarang";
+            this.Column5.HeaderText = "Total";
+            this.Column5.Name = "Column5";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(159, 153);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(72, 19);
+            this.label1.TabIndex = 98;
+            this.label1.Text = "Tanggal: ";
+            // 
             // Form_Keranjang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1281, 822);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvKeranjang);
             this.Controls.Add(this.dgvBarang);
             this.Controls.Add(this.btnInventForm);
@@ -688,7 +741,7 @@
             this.Controls.Add(this.btnCategForm);
             this.Controls.Add(this.guna2GradientPanel3);
             this.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form_Keranjang";
             this.Text = "cartForm";
             this.Load += new System.EventHandler(this.Form_Keranjang_Load);
@@ -747,5 +800,11 @@
         private Guna.UI2.WinForms.Guna2GradientTileButton btnInventForm;
         private System.Windows.Forms.DataGridView dgvBarang;
         private System.Windows.Forms.DataGridView dgvKeranjang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.Label label1;
     }
 }

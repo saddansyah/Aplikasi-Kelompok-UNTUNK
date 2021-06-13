@@ -21,7 +21,7 @@ namespace DashboardUNTUNK
         private SqlDataReader rd;
         private string sellerName;
         Koneksi Konn = new Koneksi();
-        Form_Nota frmNota;
+        //Form_Nota frmNota;
 
         Form_KelolaBarang frmBarang;
         Form_Kategori frmKategori;
@@ -58,8 +58,8 @@ namespace DashboardUNTUNK
 
         private void proceed_btn_Click(object sender, EventArgs e)
         {
-            Form_Nota proceed = new Form_Nota();
-            proceed.ShowDialog();
+            //Form_Nota proceed = new Form_Nota();
+            //proceed.ShowDialog();
 
         }
 

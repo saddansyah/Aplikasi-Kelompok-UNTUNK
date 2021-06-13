@@ -148,9 +148,10 @@ namespace DashboardUNTUNK
                     dgvKeranjang.Rows.Add(tbIDBarang.Text, tbNamaBarang.Text, tbHargaBarang.Text, udJumlah.Text);
                 }
 
+
                 foreach (DataGridViewRow row in dgvKeranjang.Rows)
                 {
-                    row.Cells[dgvKeranjang.Columns["totalBarang"].Index].Value = (Convert.ToInt32(row.Cells[dgvKeranjang.Columns["hargaBarang"].Index].Value)) * (Convert.ToInt32(row.Cells[dgvKeranjang.Columns["jmlBarang"].Index].Value));
+                    row.Cells[dgvKeranjang.Columns[4].Index].Value = (Convert.ToInt32(row.Cells[dgvKeranjang.Columns[2].Index].Value)) * (Convert.ToInt32(row.Cells[dgvKeranjang.Columns[3].Index].Value));
                     Total += (Convert.ToInt32(Convert.ToInt32(row.Cells[4].Value)));
                 }
 
@@ -175,19 +176,23 @@ namespace DashboardUNTUNK
 
         private void btnBeli_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = Konn.GetConn();
-            conn.Open();
-            cmd = new SqlCommand("INSERT INTO TBL_Transaksi(NamaKasir, TanggalTransaksi, TotalTransaksi) VALUES('" + this.sellerName + "','" + lblTanggal.Text + "','" + lblTotal.Text + "')", conn);
-            cmd.ExecuteNonQuery();
+            if (MessageBox.Show("Are you sure ?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                SqlConnection conn = Konn.GetConn();
+                conn.Open();
+                cmd = new SqlCommand("INSERT INTO TBL_Transaksi(NamaKasir, TanggalTransaksi, TotalTransaksi) VALUES('" + this.sellerName + "','" + lblTanggal.Text + "','" + lblTotal.Text + "')", conn);
+                cmd.ExecuteNonQuery();
 
-            tbIDBarang.Text = "";
-            tbNamaBarang.Text = "";
-            tbHargaBarang.Text = "";
-            udJumlah.Text = "";
-            dgvKeranjang.Rows.Clear();
+                frmNota = new Form_Nota1(lblTotal.Text, tbKeranjangUangDiterima.Text, lblKembalian.Text, this.sellerName, lblTanggal.Text, dgvKeranjang);
+                frmNota.ShowDialog();
 
-            frmNota = new Form_Nota1(lblTotal.Text, tbKeranjangUangDiterima.Text, lblKembalian.Text);
-            frmNota.ShowDialog();
+                dgvKeranjang.Rows.Clear();
+                tbIDBarang.Text = "";
+                tbNamaBarang.Text = "";
+                tbHargaBarang.Text = "";
+                udJumlah.Text = "";
+            }
+
         }
 
         private void tbKeranjangUangDiterima_TextChanged(object sender, EventArgs e)

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardUNTUNK", "DashboardUNTUNK.csproj", "{DC33458A-E2F6-4BA9-9632-011114D2CA22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardUNTUNK", "UNTUNK_UI\DashboardUNTUNK.csproj", "{DC33458A-E2F6-4BA9-9632-011114D2CA22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

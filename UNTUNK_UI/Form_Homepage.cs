@@ -52,37 +52,7 @@ namespace DashboardUNTUNK
         {
             frmLaporan = null;
         }
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            SqlConnection conn = Konn.GetConn();
-            cmd = new SqlCommand("SELECT NamaKasir, LevelKasir FROM TBL_Kasir WHERE Username = '" + validation_name + "'", conn);
-            conn.Open();
-            cmd.ExecuteNonQuery();
-            rd = cmd.ExecuteReader();
 
-            if (rd.Read())
-            {
-                lblNamaKasir.Text = rd[0].ToString();
-                lblLevelKasir.Text = rd[1].ToString();
-
-                if (lblLevelKasir.Text == "Admin")
-                {
-                    btnInventForm.Enabled = true;
-                    btnKasirForm.Enabled = true;
-                    btnCartForm.Enabled = true;
-                    btnReportForm.Enabled = true;
-                    btnLogout.Enabled = true;
-                }
-                else
-                {
-                    btnInventForm.Enabled = false;
-                    btnKasirForm.Enabled = false;
-                    btnCartForm.Enabled = true;
-                    btnReportForm.Enabled = true;
-                    btnLogout.Enabled = true;
-                }
-            }
-        }
         private void btnKasirForm_Click(object sender, EventArgs e)
         {
             if (frmKasir == null)
@@ -161,7 +131,34 @@ namespace DashboardUNTUNK
 
         private void Form_Homepage_Load(object sender, EventArgs e)
         {
+            SqlConnection conn = Konn.GetConn();
+            cmd = new SqlCommand("SELECT NamaKasir, LevelKasir FROM TBL_Kasir WHERE Username = '" + validation_name + "'", conn);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            rd = cmd.ExecuteReader();
 
+            if (rd.Read())
+            {
+                lblNamaKasir.Text = rd[0].ToString();
+                lblLevelKasir.Text = rd[1].ToString();
+
+                if (lblLevelKasir.Text == "Admin")
+                {
+                    btnInventForm.Enabled = true;
+                    btnKasirForm.Enabled = true;
+                    btnCartForm.Enabled = true;
+                    btnReportForm.Enabled = true;
+                    btnLogout.Enabled = true;
+                }
+                else
+                {
+                    btnInventForm.Enabled = false;
+                    btnKasirForm.Enabled = false;
+                    btnCartForm.Enabled = true;
+                    btnReportForm.Enabled = true;
+                    btnLogout.Enabled = true;
+                }
+            }
         }
     }
 }

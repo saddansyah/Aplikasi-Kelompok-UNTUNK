@@ -55,8 +55,23 @@
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.4\lib\net40\Guna.UI2.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
-    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.ReportViewer.WinForms.v12.12.0.0.1\lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -117,18 +132,14 @@
     <Compile Include="Koneksi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Form_Nota.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Nota.Designer.cs">
-      <DependentUpon>Form_Nota.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form_LaporanPenjualan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_LaporanPenjualan.Designer.cs">
       <DependentUpon>Form_LaporanPenjualan.cs</DependentUpon>
     </Compile>
+    <Compile Include="Receipt.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="Form_Kategori.resx">
       <DependentUpon>Form_Kategori.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,7 +161,6 @@
     <EmbeddedResource Include="Form_Nota1.resx">
       <DependentUpon>Form_Nota1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nota.rdlc" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -161,14 +171,25 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Form_Nota.resx">
-      <DependentUpon>Form_Nota.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form_LaporanPenjualan.resx">
       <DependentUpon>Form_LaporanPenjualan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nota.rdlc" />
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\DashboardUNTUNK.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\DashboardUNTUNK.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\Form_Homepage.datasource" />
+    <None Include="Properties\DataSources\Form_Kategori.datasource" />
+    <None Include="Properties\DataSources\Form_KelolaBarang.datasource" />
+    <None Include="Properties\DataSources\Form_KelolaKasir.datasource" />
+    <None Include="Properties\DataSources\Form_Keranjang.datasource" />
+    <None Include="Properties\DataSources\Form_LaporanPenjualan.datasource" />
+    <None Include="Properties\DataSources\Form_Login.datasource" />
     <None Include="Properties\DataSources\Form_Nota1.datasource" />
+    <None Include="Properties\DataSources\Koneksi.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\Receipt.datasource" />
+    <None Include="Properties\DataSources\SqlServerTypes.Utilities.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -261,6 +282,19 @@
     <Content Include="Database_UNTUNK_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database_UNTUNK.mdf</DependentUpon>
+    </Content>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>

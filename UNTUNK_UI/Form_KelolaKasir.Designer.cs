@@ -70,12 +70,11 @@
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Akira Expanded", 20F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(15, 60);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(10, 39);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(116, 44);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(50, 33);
             this.guna2HtmlLabel2.TabIndex = 14;
             this.guna2HtmlLabel2.Text = "unk";
             this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
@@ -83,12 +82,11 @@
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Akira Expanded", 20F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(15, 18);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(10, 12);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(112, 44);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(63, 33);
             this.guna2HtmlLabel1.TabIndex = 13;
             this.guna2HtmlLabel1.Text = "UNT";
             this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
@@ -103,11 +101,10 @@
             this.guna2Panel1.Controls.Add(this.btnCartForm);
             this.guna2Panel1.Controls.Add(this.btnCategForm);
             this.guna2Panel1.Controls.Add(this.btnInventForm);
-            this.guna2Panel1.Location = new System.Drawing.Point(-2, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2Panel1.Location = new System.Drawing.Point(-1, 0);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(145, 819);
+            this.guna2Panel1.Size = new System.Drawing.Size(97, 532);
             this.guna2Panel1.TabIndex = 15;
             // 
             // btnLogout
@@ -120,11 +117,10 @@
             this.btnLogout.ForeColor = System.Drawing.Color.White;
             this.btnLogout.HoverState.Parent = this.btnLogout;
             this.btnLogout.Image = global::DashboardUNTUNK.Properties.Resources.logout_rounded_up_58px;
-            this.btnLogout.Location = new System.Drawing.Point(2, 686);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnLogout.Location = new System.Drawing.Point(1, 446);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.ShadowDecoration.Parent = this.btnLogout;
-            this.btnLogout.Size = new System.Drawing.Size(144, 132);
+            this.btnLogout.Size = new System.Drawing.Size(96, 86);
             this.btnLogout.TabIndex = 34;
             this.btnLogout.Text = "Logout";
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
@@ -139,11 +135,10 @@
             this.btnReportForm.ForeColor = System.Drawing.Color.White;
             this.btnReportForm.HoverState.Parent = this.btnReportForm;
             this.btnReportForm.Image = global::DashboardUNTUNK.Properties.Resources.report_file_58px;
-            this.btnReportForm.Location = new System.Drawing.Point(2, 571);
-            this.btnReportForm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnReportForm.Location = new System.Drawing.Point(1, 371);
             this.btnReportForm.Name = "btnReportForm";
             this.btnReportForm.ShadowDecoration.Parent = this.btnReportForm;
-            this.btnReportForm.Size = new System.Drawing.Size(142, 115);
+            this.btnReportForm.Size = new System.Drawing.Size(95, 75);
             this.btnReportForm.TabIndex = 33;
             this.btnReportForm.Text = "Sales Report";
             this.btnReportForm.Click += new System.EventHandler(this.btnReportForm_Click);
@@ -158,11 +153,10 @@
             this.btnKasirForm.ForeColor = System.Drawing.Color.White;
             this.btnKasirForm.HoverState.Parent = this.btnKasirForm;
             this.btnKasirForm.Image = global::DashboardUNTUNK.Properties.Resources.cash_register_50px;
-            this.btnKasirForm.Location = new System.Drawing.Point(1, 114);
-            this.btnKasirForm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnKasirForm.Location = new System.Drawing.Point(1, 74);
             this.btnKasirForm.Name = "btnKasirForm";
             this.btnKasirForm.ShadowDecoration.Parent = this.btnKasirForm;
-            this.btnKasirForm.Size = new System.Drawing.Size(143, 110);
+            this.btnKasirForm.Size = new System.Drawing.Size(95, 71);
             this.btnKasirForm.TabIndex = 29;
             this.btnKasirForm.Text = "Kasir";
             // 
@@ -176,11 +170,10 @@
             this.btnCartForm.ForeColor = System.Drawing.Color.White;
             this.btnCartForm.HoverState.Parent = this.btnCartForm;
             this.btnCartForm.Image = global::DashboardUNTUNK.Properties.Resources.shopping_cart_48px1;
-            this.btnCartForm.Location = new System.Drawing.Point(1, 224);
-            this.btnCartForm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnCartForm.Location = new System.Drawing.Point(1, 146);
             this.btnCartForm.Name = "btnCartForm";
             this.btnCartForm.ShadowDecoration.Parent = this.btnCartForm;
-            this.btnCartForm.Size = new System.Drawing.Size(143, 116);
+            this.btnCartForm.Size = new System.Drawing.Size(95, 75);
             this.btnCartForm.TabIndex = 30;
             this.btnCartForm.Text = "Keranjang";
             this.btnCartForm.Click += new System.EventHandler(this.btnCartForm_Click);
@@ -195,11 +188,10 @@
             this.btnCategForm.ForeColor = System.Drawing.Color.White;
             this.btnCategForm.HoverState.Parent = this.btnCategForm;
             this.btnCategForm.Image = global::DashboardUNTUNK.Properties.Resources.list_58px;
-            this.btnCategForm.Location = new System.Drawing.Point(1, 340);
-            this.btnCategForm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnCategForm.Location = new System.Drawing.Point(1, 221);
             this.btnCategForm.Name = "btnCategForm";
             this.btnCategForm.ShadowDecoration.Parent = this.btnCategForm;
-            this.btnCategForm.Size = new System.Drawing.Size(143, 121);
+            this.btnCategForm.Size = new System.Drawing.Size(95, 79);
             this.btnCategForm.TabIndex = 32;
             this.btnCategForm.Text = "Category";
             this.btnCategForm.Click += new System.EventHandler(this.btnCategForm_Click);
@@ -214,11 +206,10 @@
             this.btnInventForm.ForeColor = System.Drawing.Color.White;
             this.btnInventForm.HoverState.Parent = this.btnInventForm;
             this.btnInventForm.Image = global::DashboardUNTUNK.Properties.Resources.trolley_50px;
-            this.btnInventForm.Location = new System.Drawing.Point(1, 455);
-            this.btnInventForm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnInventForm.Location = new System.Drawing.Point(1, 296);
             this.btnInventForm.Name = "btnInventForm";
             this.btnInventForm.ShadowDecoration.Parent = this.btnInventForm;
-            this.btnInventForm.Size = new System.Drawing.Size(143, 117);
+            this.btnInventForm.Size = new System.Drawing.Size(95, 76);
             this.btnInventForm.TabIndex = 31;
             this.btnInventForm.Text = "Inventory";
             this.btnInventForm.Click += new System.EventHandler(this.btnInventForm_Click);
@@ -228,10 +219,9 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(20, 31);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(13, 20);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(255, 23);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(176, 19);
             this.guna2HtmlLabel4.TabIndex = 3;
             this.guna2HtmlLabel4.Text = "Your Own Digitalized Warunk!";
             // 
@@ -243,21 +233,19 @@
             this.guna2ShadowPanel1.Controls.Add(this.guna2HtmlLabel3);
             this.guna2ShadowPanel1.Controls.Add(this.guna2TextBox1);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(150, 18);
-            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(100, 12);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.DodgerBlue;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(804, 86);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(536, 56);
             this.guna2ShadowPanel1.TabIndex = 16;
             this.guna2ShadowPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel1_Paint);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::DashboardUNTUNK.Properties.Resources.search_grey;
-            this.pictureBox1.Location = new System.Drawing.Point(482, 22);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(321, 14);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 42);
+            this.pictureBox1.Size = new System.Drawing.Size(32, 27);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -267,10 +255,9 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.Silver;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(552, 31);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(368, 20);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(163, 23);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(109, 19);
             this.guna2HtmlLabel3.TabIndex = 1;
             this.guna2HtmlLabel3.Text = "Search for menu...";
             this.guna2HtmlLabel3.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
@@ -289,14 +276,13 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(538, 22);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2TextBox1.Location = new System.Drawing.Point(359, 14);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(244, 42);
+            this.guna2TextBox1.Size = new System.Drawing.Size(163, 27);
             this.guna2TextBox1.TabIndex = 0;
             // 
             // guna2GradientPanel2
@@ -305,11 +291,10 @@
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.LightSkyBlue;
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.SteelBlue;
             this.guna2GradientPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(142, 114);
-            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(95, 74);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(1044, 38);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(696, 25);
             this.guna2GradientPanel2.TabIndex = 18;
             // 
             // guna2HtmlLabel5
@@ -317,10 +302,9 @@
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(12, 5);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(8, 3);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(120, 24);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(79, 18);
             this.guna2HtmlLabel5.TabIndex = 4;
             this.guna2HtmlLabel5.Text = "Counter Kasir";
             // 
@@ -329,10 +313,9 @@
             this.subTot.BackColor = System.Drawing.Color.Transparent;
             this.subTot.Font = new System.Drawing.Font("Century Gothic", 11F);
             this.subTot.ForeColor = System.Drawing.Color.SteelBlue;
-            this.subTot.Location = new System.Drawing.Point(179, 186);
-            this.subTot.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.subTot.Location = new System.Drawing.Point(119, 121);
             this.subTot.Name = "subTot";
-            this.subTot.Size = new System.Drawing.Size(112, 27);
+            this.subTot.Size = new System.Drawing.Size(77, 22);
             this.subTot.TabIndex = 24;
             this.subTot.Text = "Username";
             // 
@@ -350,13 +333,14 @@
             this.tbKasirUsername.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbKasirUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbKasirUsername.HoverState.Parent = this.tbKasirUsername;
-            this.tbKasirUsername.Location = new System.Drawing.Point(315, 186);
+            this.tbKasirUsername.Location = new System.Drawing.Point(210, 121);
+            this.tbKasirUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbKasirUsername.Name = "tbKasirUsername";
             this.tbKasirUsername.PasswordChar = '\0';
             this.tbKasirUsername.PlaceholderText = "";
             this.tbKasirUsername.SelectedText = "";
             this.tbKasirUsername.ShadowDecoration.Parent = this.tbKasirUsername;
-            this.tbKasirUsername.Size = new System.Drawing.Size(828, 38);
+            this.tbKasirUsername.Size = new System.Drawing.Size(552, 25);
             this.tbKasirUsername.TabIndex = 59;
             this.tbKasirUsername.TextChanged += new System.EventHandler(this.tbKasirUsername_TextChanged);
             // 
@@ -374,13 +358,14 @@
             this.tbKasirPasswordKasir.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbKasirPasswordKasir.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbKasirPasswordKasir.HoverState.Parent = this.tbKasirPasswordKasir;
-            this.tbKasirPasswordKasir.Location = new System.Drawing.Point(315, 327);
+            this.tbKasirPasswordKasir.Location = new System.Drawing.Point(210, 213);
+            this.tbKasirPasswordKasir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbKasirPasswordKasir.Name = "tbKasirPasswordKasir";
             this.tbKasirPasswordKasir.PasswordChar = '\0';
             this.tbKasirPasswordKasir.PlaceholderText = "";
             this.tbKasirPasswordKasir.SelectedText = "";
             this.tbKasirPasswordKasir.ShadowDecoration.Parent = this.tbKasirPasswordKasir;
-            this.tbKasirPasswordKasir.Size = new System.Drawing.Size(828, 37);
+            this.tbKasirPasswordKasir.Size = new System.Drawing.Size(552, 24);
             this.tbKasirPasswordKasir.TabIndex = 60;
             // 
             // tbKasirNamaKasir
@@ -397,13 +382,14 @@
             this.tbKasirNamaKasir.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbKasirNamaKasir.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbKasirNamaKasir.HoverState.Parent = this.tbKasirNamaKasir;
-            this.tbKasirNamaKasir.Location = new System.Drawing.Point(315, 256);
+            this.tbKasirNamaKasir.Location = new System.Drawing.Point(210, 166);
+            this.tbKasirNamaKasir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbKasirNamaKasir.Name = "tbKasirNamaKasir";
             this.tbKasirNamaKasir.PasswordChar = '\0';
             this.tbKasirNamaKasir.PlaceholderText = "";
             this.tbKasirNamaKasir.SelectedText = "";
             this.tbKasirNamaKasir.ShadowDecoration.Parent = this.tbKasirNamaKasir;
-            this.tbKasirNamaKasir.Size = new System.Drawing.Size(828, 35);
+            this.tbKasirNamaKasir.Size = new System.Drawing.Size(552, 23);
             this.tbKasirNamaKasir.TabIndex = 61;
             // 
             // guna2GradientPanel3
@@ -411,11 +397,10 @@
             this.guna2GradientPanel3.FillColor = System.Drawing.Color.SkyBlue;
             this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.SteelBlue;
             this.guna2GradientPanel3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel3.Location = new System.Drawing.Point(-2, 818);
-            this.guna2GradientPanel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2GradientPanel3.Location = new System.Drawing.Point(-1, 532);
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
             this.guna2GradientPanel3.ShadowDecoration.Parent = this.guna2GradientPanel3;
-            this.guna2GradientPanel3.Size = new System.Drawing.Size(1188, 59);
+            this.guna2GradientPanel3.Size = new System.Drawing.Size(792, 38);
             this.guna2GradientPanel3.TabIndex = 62;
             // 
             // tenderTotal
@@ -423,10 +408,9 @@
             this.tenderTotal.AutoSize = true;
             this.tenderTotal.Font = new System.Drawing.Font("Century Gothic", 11F);
             this.tenderTotal.ForeColor = System.Drawing.Color.SteelBlue;
-            this.tenderTotal.Location = new System.Drawing.Point(174, 256);
-            this.tenderTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.tenderTotal.Location = new System.Drawing.Point(116, 166);
             this.tenderTotal.Name = "tenderTotal";
-            this.tenderTotal.Size = new System.Drawing.Size(134, 25);
+            this.tenderTotal.Size = new System.Drawing.Size(90, 20);
             this.tenderTotal.TabIndex = 63;
             this.tenderTotal.Text = "Nama Kasir";
             // 
@@ -435,10 +419,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11F);
             this.label2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label2.Location = new System.Drawing.Point(178, 327);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(119, 213);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 25);
+            this.label2.Size = new System.Drawing.Size(79, 20);
             this.label2.TabIndex = 64;
             this.label2.Text = "Password";
             // 
@@ -451,10 +434,11 @@
             this.btnInput.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInput.ForeColor = System.Drawing.Color.White;
             this.btnInput.HoverState.Parent = this.btnInput;
-            this.btnInput.Location = new System.Drawing.Point(170, 430);
+            this.btnInput.Location = new System.Drawing.Point(113, 279);
+            this.btnInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnInput.Name = "btnInput";
             this.btnInput.ShadowDecoration.Parent = this.btnInput;
-            this.btnInput.Size = new System.Drawing.Size(138, 40);
+            this.btnInput.Size = new System.Drawing.Size(92, 26);
             this.btnInput.TabIndex = 65;
             this.btnInput.Text = "Input";
             this.btnInput.Click += new System.EventHandler(this.btnInput_Click);
@@ -464,10 +448,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11F);
             this.label3.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label3.Location = new System.Drawing.Point(178, 383);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(119, 249);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 25);
+            this.label3.Size = new System.Drawing.Size(49, 20);
             this.label3.TabIndex = 66;
             this.label3.Text = "Level";
             // 
@@ -480,10 +463,11 @@
             this.btnEdit.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.ForeColor = System.Drawing.Color.White;
             this.btnEdit.HoverState.Parent = this.btnEdit;
-            this.btnEdit.Location = new System.Drawing.Point(345, 430);
+            this.btnEdit.Location = new System.Drawing.Point(230, 279);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.ShadowDecoration.Parent = this.btnEdit;
-            this.btnEdit.Size = new System.Drawing.Size(138, 40);
+            this.btnEdit.Size = new System.Drawing.Size(92, 26);
             this.btnEdit.TabIndex = 67;
             this.btnEdit.Text = "Edit";
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
@@ -497,10 +481,11 @@
             this.btnDelete.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.White;
             this.btnDelete.HoverState.Parent = this.btnDelete;
-            this.btnDelete.Location = new System.Drawing.Point(518, 430);
+            this.btnDelete.Location = new System.Drawing.Point(345, 279);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.ShadowDecoration.Parent = this.btnDelete;
-            this.btnDelete.Size = new System.Drawing.Size(138, 40);
+            this.btnDelete.Size = new System.Drawing.Size(92, 26);
             this.btnDelete.TabIndex = 68;
             this.btnDelete.Text = "Delete";
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
@@ -514,10 +499,11 @@
             this.btnSearch.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.Color.White;
             this.btnSearch.HoverState.Parent = this.btnSearch;
-            this.btnSearch.Location = new System.Drawing.Point(688, 430);
+            this.btnSearch.Location = new System.Drawing.Point(459, 279);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.ShadowDecoration.Parent = this.btnSearch;
-            this.btnSearch.Size = new System.Drawing.Size(138, 40);
+            this.btnSearch.Size = new System.Drawing.Size(92, 26);
             this.btnSearch.TabIndex = 69;
             this.btnSearch.Text = "Search";
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
@@ -531,10 +517,11 @@
             this.btnClear.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
             this.btnClear.HoverState.Parent = this.btnClear;
-            this.btnClear.Location = new System.Drawing.Point(1025, 430);
+            this.btnClear.Location = new System.Drawing.Point(683, 279);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnClear.Name = "btnClear";
             this.btnClear.ShadowDecoration.Parent = this.btnClear;
-            this.btnClear.Size = new System.Drawing.Size(138, 40);
+            this.btnClear.Size = new System.Drawing.Size(92, 26);
             this.btnClear.TabIndex = 70;
             this.btnClear.Text = "Clear";
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
@@ -548,37 +535,40 @@
             this.btnExit.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.White;
             this.btnExit.HoverState.Parent = this.btnExit;
-            this.btnExit.Location = new System.Drawing.Point(855, 430);
+            this.btnExit.Location = new System.Drawing.Point(570, 279);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExit.Name = "btnExit";
             this.btnExit.ShadowDecoration.Parent = this.btnExit;
-            this.btnExit.Size = new System.Drawing.Size(138, 40);
+            this.btnExit.Size = new System.Drawing.Size(92, 26);
             this.btnExit.TabIndex = 71;
             this.btnExit.Text = "Exit";
             // 
             // dgvDataKasir
             // 
             this.dgvDataKasir.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDataKasir.Location = new System.Drawing.Point(170, 500);
+            this.dgvDataKasir.Location = new System.Drawing.Point(113, 325);
+            this.dgvDataKasir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvDataKasir.Name = "dgvDataKasir";
             this.dgvDataKasir.RowHeadersWidth = 62;
             this.dgvDataKasir.RowTemplate.Height = 28;
-            this.dgvDataKasir.Size = new System.Drawing.Size(993, 296);
+            this.dgvDataKasir.Size = new System.Drawing.Size(662, 192);
             this.dgvDataKasir.TabIndex = 72;
             this.dgvDataKasir.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDataKasir_CellContentClick);
             // 
             // cbKasirLevelKasir
             // 
             this.cbKasirLevelKasir.FormattingEnabled = true;
-            this.cbKasirLevelKasir.Location = new System.Drawing.Point(315, 383);
+            this.cbKasirLevelKasir.Location = new System.Drawing.Point(210, 249);
+            this.cbKasirLevelKasir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbKasirLevelKasir.Name = "cbKasirLevelKasir";
-            this.cbKasirLevelKasir.Size = new System.Drawing.Size(121, 28);
+            this.cbKasirLevelKasir.Size = new System.Drawing.Size(82, 21);
             this.cbKasirLevelKasir.TabIndex = 73;
             // 
             // Form_KelolaKasir
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1186, 877);
+            this.ClientSize = new System.Drawing.Size(791, 570);
             this.Controls.Add(this.cbKasirLevelKasir);
             this.Controls.Add(this.dgvDataKasir);
             this.Controls.Add(this.btnExit);
@@ -598,8 +588,7 @@
             this.Controls.Add(this.subTot);
             this.Controls.Add(this.guna2ShadowPanel1);
             this.Controls.Add(this.guna2Panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form_KelolaKasir";
             this.Text = "kasir";
             this.Load += new System.EventHandler(this.Form_KelolaKasir_Load);
